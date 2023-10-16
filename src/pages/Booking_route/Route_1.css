@@ -1,0 +1,275 @@
+.desktop-1-ticket{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2500px;
+    height: 1200px;
+    
+}
+
+.inquiry-number{
+        height: 50px;
+        font-size: 70px;
+        background-color:  var(--color-darkslateblue);
+}
+
+.for-route-ticket,
+.payment-ticket {
+position: absolute;
+top: 15px;
+left: 16px;
+display: inline-block;
+color: white;
+width: 596px;
+height: 140px;
+font-size: 20px;
+
+}
+.payment-ticket {
+left: 1750px;
+width: 596px;
+cursor: pointer;
+}
+
+.payment-ticket {
+    left: 1750px;
+    width: 596px;
+    cursor: pointer;
+    }
+
+.desktop-1-inner-ticket {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: rgba(156, 98, 61, 0.09);
+     width: 2500px;
+    height: 167px;
+}
+
+.bus-logo-1-icon-ticket{
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.bus-tickets-ticket{
+    position: absolute;
+    top: 90px;
+    left: 210px;
+    display: inline-block;
+    width: 481px;
+    height: 147px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.track-bus-ticket {
+    left: 417px;
+    height: 300px;
+    cursor: pointer;
+    font-size: 20px;
+    }
+
+    .account-ticket,
+    .agent-login-ticket,
+    .help-ticket,
+    .track-bus-ticket {
+    position: absolute;
+    top: 90px;
+    display: inline-block;
+    width: 481px;
+    cursor: pointer;
+    }
+
+    .account-ticket,
+    .agent-login-ticket,
+    .help-ticket,
+    .track-bus-ticket {
+    position: absolute;
+    top: 90px;
+    display: inline-block;
+    width: 481px;
+    cursor: pointer;
+    }
+    .account-ticket {
+    left: 2000px;
+    height: 147px;
+    cursor: pointer;
+    }
+
+.dropbtn-ticket{
+        background-color: #563d85;
+        color: white;
+        padding: 10px 25px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        width: 100px;
+      }
+      
+      .dropbtn-ticket:hover{
+        background: linear-gradient(to right, #ee0979, #ff6a00);
+      }
+      
+      .dropdown-content-ticket {
+        position: absolute;
+        background-color: #f9f9f9;
+       width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content-ticket a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content-ticket a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown-ticket:hover .dropdown-content-ticket {
+        display: block;
+      }
+
+      .agent-login-ticket,
+      .help-ticket{
+      left: 625px;
+      }
+
+
+      .agent-login-ticket,
+.help-ticket{
+left: 625px;
+font-size: 20px;
+text-decoration: none;
+}
+.help-ticket{
+left: 850px;
+cursor: pointer;
+}
+
+
+.bus-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.bus-card {
+  width: 1500px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  background-color: #706687;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  height: 100%; 
+  margin-right: 200px;
+}
+
+.bus-card h4 {
+  margin: 0;
+  font-size: 50px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.bus-card p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: flex;
+}
+
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.bus-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+.bus-table th, .bus-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: center;
+
+}
+
+.bus-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.bus-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bus-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+
+
+.bus-table button {
+  /* background-color: #4caf50; */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.bus-table button:hover {
+  background-color: #45a049;
+}
+
+.bus-table button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.bus-table button:disabled:hover {
+  background-color: #cccccc;
+}
+
+.main-card{
+  margin-top: 150px;
+  width: 100%;
+}
+
+h3{
+  color: blue;
+  font-size: 30px;
+padding: 30px;
+text-align: center;
+margin-left: -110px;
+
+}

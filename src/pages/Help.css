@@ -1,0 +1,714 @@
+.group-child-help,
+.group-item-help,
+.help-child-help {
+  position: absolute;
+  top: 0;
+  background-color: var(--color-white);
+}
+.help-child-help {
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 147px;
+}
+.group-child-help,
+.group-item-help {
+  left: 2.4px;
+  border-radius: var(--br-mini);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 713.61px;
+  height: 692.21px;
+}
+.group-item-help {
+  left: 1.2px;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  border: 2px solid var(--color-black);
+  width: 714.81px;
+  height: 106.04px;
+}
+.select-a-topic {
+  font-weight: 600;
+}
+.faq-select-container {
+  position: absolute;
+  top: 29.13px;
+  left: 107.94px;
+  display: inline-block;
+  width: 533.71px;
+  height: 97.89px;
+}
+.group-inner-help,
+.line-div {
+  position: absolute;
+  top: 225.24px;
+  left: 1.2px;
+  width: 713.61px;
+  height: 3.18px;
+}
+.line-div {
+  top: 352.09px;
+  left: -1px;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 716.81px;
+  height: 2px;
+}
+.group-child1-help,
+.line-icon {
+  position: absolute;
+  top: 465.3px;
+  left: 1.2px;
+  width: 713.61px;
+  height: 3.18px;
+}
+.group-child1-help {
+  top: 578.17px;
+  left: 0.2px;
+  border-top: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 716.81px;
+  height: 2px;
+}
+.booking-help,
+.booking-issues,
+.payment-issues,
+.service-issues,
+.technical-issues {
+  position: absolute;
+  top: 135.18px;
+  left: 133.13px;
+  font-weight: 600;
+  display: inline-block;
+  width: 528.91px;
+  height: 99.05px;
+}
+.booking-help,
+.payment-issues,
+.service-issues,
+.technical-issues {
+  top: 256.37px;
+  width: 436.56px;
+  height: 100.22px;
+}
+.booking-help,
+.service-issues,
+.technical-issues {
+  top: 381.06px;
+  width: 551.7px;
+  height: 156.15px;
+}
+.booking-help,
+.technical-issues {
+  top: 601.31px;
+  width: 600.87px;
+  height: 124.69px;
+}
+.technical-issues {
+  top: 496.43px;
+  width: 507.32px;
+  height: 115.37px;
+}
+.frame-icon-help {
+  position: absolute;
+  top: -160px;
+  left: 360px;
+  width: 64.85px;
+  height: 55px;
+}
+.frame-icon {
+  top: 480.12px;
+  left: 32.38px;
+  width: 83.95px;
+  height: 74.58px;
+  overflow: hidden;
+}
+
+.vector-icon2-help{
+  position: absolute;
+  top: 381.06px;
+  left: 42.3px;
+  width: 74.31px;
+  height: 58.27px;
+}
+.vector-icon2-help {
+  top: 256.37px;
+  width: 69.36px;
+  height: 43.12px;
+}
+.frame-icon1-help{
+  position: absolute;
+  top: 595.48px;
+  left: 37.18px;
+  width: 75.56px;
+  height: 64.09px;
+  overflow: hidden;
+}
+/* .frame-icon2 {
+  top: 262.2px;
+  left: 594.88px;
+  width: 59.97px;
+  height: 58.27px;
+} */
+.rectangle-parent-help {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 734px;
+  height: 726px;
+}
+.frame-icon3,
+.frame-icon4,
+.frame-icon5,
+.frame-icon6 {
+  position: absolute;
+  top: 132.85px;
+  left: 594.88px;
+  width: 59.97px;
+  height: 58.27px;
+  overflow: hidden;
+}
+.frame-icon4,
+.frame-icon5,
+.frame-icon6 {
+  top: 381.06px;
+}
+.frame-icon5,
+.frame-icon6 {
+  top: 496.43px;
+}
+.frame-icon6 {
+  top: 601.31px;
+}
+.group-parent-help {
+  position: absolute;
+  top: 204px;
+  left: 225px;
+  width: 734px;
+  height: 726px;
+  font-size: var(--font-size-17xl);
+}
+.customer-support {
+  position: absolute;
+  width: 92.43%;
+  top: 764px;
+  left: 2.57%;
+  display: inline-block;
+  height: 122px;
+}
+.pngtreecustomer-service-staff {
+  position: absolute;
+  width: 85%;
+  top: 200px;
+  right: 20.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 450px;
+  object-fit: cover;
+}
+.rideeasy-help {
+  position: absolute;
+  width: 76.59%;
+  top: 0;
+  left: 14.29%;
+  display: inline-block;
+  height: 172px;
+}
+.customer-support-parent {
+  position: absolute;
+  width: 41.54%;
+  top: 176px;
+  right: 3.53%;
+  left: 54.93%;
+  height: 886px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkorange);
+}
+.rectangle-div-help {
+  position: absolute;
+  top: 31.91px;
+  left: 10.91px;
+  background-color: var(--color-white);
+  width: 107.82px;
+  height: 145.09px;
+}
+.bus-logo-1-icon-help {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 129px;
+  height: 175.54px;
+  object-fit: cover;
+}
+.rectangle-group-help {
+  position: absolute;
+  top: -35px;
+  left: 15px;
+  width: 129px;
+  height: 177px;
+}
+.bus-tickets-help{
+  position: absolute;
+  top: 66px;
+  left: 217px;
+  display: inline-block;
+  width: 216px;
+}
+.track-bus-help {
+  top: 66px;
+  left: 437px;
+  width: 117px;
+}
+.account-help,
+.agent-login-help,
+.help1,
+.track-bus-help {
+  position: absolute;
+  display: inline-block;
+}
+.agent-login-help {
+  top: 66px;
+  left: 638px;
+  width: 139px;
+}
+.account-help,
+.help1 {
+  top: 63px;
+  right: 970px;
+  width: 52px;
+  
+}
+
+.help1{
+  left:860px;
+  margin-top:2px;
+}
+.account-help {
+  top: 66px;
+  right: 56px;
+  width: 105px;
+}
+.group-icon-help{
+  position: absolute;
+  top: 52.99px;
+  right: 1420px;
+  width: 40px;
+  height: 50px;
+}
+.vector-icon3-help{
+  position: absolute;
+  top: 340px;
+  right: 1700px;
+  width: 50px;
+  height: 40px;
+  size: 100px;
+}
+.vector-icon4 {
+  top: 57px;
+  right: 168px;
+  width: 28px;
+  height: 30px;
+}
+.group-icon1-help{
+  position: absolute;
+  top: 43.47px;
+  left: 180.71px;
+  width: 44.99px;
+  height: 52.88px;
+}
+.group-icon1-help {
+  top: 49.49px;
+  left: 398.29px;
+  width: 37.3px;
+  height: 48.5px;
+}
+.group-icon2-help {
+  position: absolute;
+  top: 68px;
+  left: 614px;
+  width: 9px;
+  height: 12px;
+}
+.group-icon2-help {
+  top: 60.93px;
+  left: 610.35px;
+  width: 17.17px;
+  height: 3.75px;
+}
+
+.vector-icon8-help {
+  position: absolute;
+  top: 150px;
+  left: 611px;
+  width: 14px;
+  height: 19px;
+}
+/* .vector-icon7-help{
+  position: absolute;
+  top: 150px;
+  left: 611px;
+  width: 14px;
+  height: 50px;
+} */
+/* .vector-icon8-help {
+  top: 49px;
+  width: 16px;
+  height: 14px;
+} */
+.group-icon3-help{
+  position: absolute;
+  top: 100px;
+  left: 615.03px;
+  width: 7.8px;
+  height: 1.88px;
+}
+.vector-icon9-help {
+  top: 74px;
+  left: 607px;
+  width: 25px;
+  height: 12px;
+}
+
+.vector-icon10-help {
+  position: absolute;
+  top: 75px;
+  left: 618px;
+  width: 3px;
+  height: 11px;
+}
+.quick-links-help {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 175.59px;
+}
+.my-booking {
+  margin: 0;
+}
+.my-booking-pay-container-help {
+  position: absolute;
+  width: 70.76%;
+  top: 57.54px;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: inline-block;
+  height: 254.95px;
+}
+.quick-links-parent-help {
+  position: absolute;
+  width: 46.62%;
+  top: 334px;
+  right: 29.44%;
+  left: 23.94%;
+  height: 312.49px;
+}
+.home-track-bus-container,
+.support {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 105.16px;
+}
+.home-track-bus-container {
+  width: 81.37%;
+  top: 59.52px;
+  font-size: var(--font-size-5xl);
+  height: 265.87px;
+}
+.support-parent {
+  position: absolute;
+  width: 33.97%;
+  top: 338px;
+  right: 62.43%;
+  left: 3.6%;
+  height: 325.39px;
+}
+.faq-user-agreement-container,
+.info {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 122.02px;
+}
+.faq-user-agreement-container {
+  width: 68.61%;
+  top: 60.51px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  height: 260.91px;
+}
+.info-parent-help {
+  position: absolute;
+  width: 38.79%;
+  top: 325px;
+  right: -14.08%;
+  left: 75.29%;
+  height: 321.42px;
+}
+.contact-us-help {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  height: 119.04px;
+}
+.vector-icon11-help {
+  position: absolute;
+  width: 6.11%;
+  top: 61.61px;
+  right: 92.73%;
+  left: 1.16%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 25.1px;
+}
+.b,
+.inforideeasycom-help,
+.wwwrideeasycom-help {
+  position: absolute;
+  width: 71.84%;
+  top: 60.51px;
+  left: 10.56%;
+  display: inline-block;
+  height: 69.44px;
+}
+.inforideeasycom-help,
+.wwwrideeasycom-help {
+  width: 66.67%;
+  top: 114.08px;
+  height: 87.3px;
+}
+.inforideeasycom-help {
+  width: 77.23%;
+  top: 167.65px;
+  height: 100.2px;
+}
+.vector-icon12-help,
+.vector-icon13-help {
+  position: absolute;
+  width: 6.14%;
+  top: 118.05px;
+  right: 92.62%;
+  left: 1.24%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24.65px;
+}
+.vector-icon13-help {
+  width: 5.4%;
+  top: 174.5px;
+  right: 92.94%;
+  left: 1.66%;
+  height: 17.85px;
+}
+.contact-us-parent-help {
+  position: absolute;
+  width: 36.38%;
+  top: 325px;
+  right: 18.3%;
+  left: 45.32%;
+  height: 267.85px;
+  font-size: var(--font-size-5xl);
+}
+.about-us {
+  position: absolute;
+  width: 51.43%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  height: 105.16px;
+}
+.rideeasy-offering-services-,
+.rideeasy-offers-bus {
+  position: absolute;
+  width: 100%;
+  top: 56.55px;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  height: 328.36px;
+}
+.rideeasy-offers-bus {
+  width: 97.95%;
+  top: 135.91px;
+  height: 106.15px;
+}
+.about-us-parent-help {
+  position: absolute;
+  width: 81.87%;
+  top: 77px;
+  right: 3.73%;
+  left: 14.4%;
+  height: 384.91px;
+  font-size: var(--font-size-5xl);
+}
+.group-child2 {
+  position: absolute;
+  top: 69px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 215px;
+  height: 216px;
+}
+.bus-logo-2-icon-help {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 214px;
+  height: 274px;
+  object-fit: cover;
+}
+.rectangle-container-help {
+  position: absolute;
+  top: -23px;
+  left: 33px;
+  width: 215px;
+  height: 285px;
+}
+.desktop-2-help,
+.help {
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  overflow: hidden;
+}
+.desktop-2-help {
+  position: absolute;
+  top: 1062px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  height: 548px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.help {
+  position: relative;
+  height: 1610px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+
+.dropbtn-help {
+  background-color: #563d85;
+  color: white;
+  padding: 10px 25px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.dropbtn-help:hover{
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.dropdown-content {
+  
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.booking-issues{
+  margin-bottom: 20px;
+}
+
+.faq-tag {
+  
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff; /* Blue color for the tag */
+  
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.4s ease-in-out;
+  z-index: 1; /* Bring the FAQ tag to the foreground */
+}
+
+.faq-tag:hover {
+  color: #ff5722; /* Change color on hover */
+  transform: scale(1.05); /* Increase size on hover */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.faq-dropdown {
+  /* display: none; */
+  padding: 10px;
+  padding-top: 0;
+  width: 400px;
+  border: 1px solid #ccc;
+  background-color: rgba(249, 249, 249, 0.9);
+  backdrop-filter: blur(5px); 
+  z-index: 2; 
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 300px;
+}
+
+.faq-tag.active + .faq-dropdown {
+  display: block;
+  border: none;
+}
+
+.vector-icon4-help{
+  position: absolute;
+  top: -160px;
+  left: -40px;
+  width: 44.54px;
+  height: 52.89px;
+}
+
+.vector-icon5-help {
+  position: absolute;
+  top: 61.61px;
+  left: 9.39px;
+  width: 49.38px;
+  height: 25.1px;
+}
+
+.vector-icon6-help,.vector-icon7-help{
+  position: absolute;
+  top: 118.05px;
+  left: 10.04px;
+  width: 49.65px;
+  height: 24.65px;
+}
+
+.vector-icon7-help {
+  top: 174.5px;
+  left: 12.98px;
+  width: 44.57px;
+  height: 17.84px;
+}

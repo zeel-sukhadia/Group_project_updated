@@ -1,0 +1,410 @@
+.desktop-header-payment{
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    background-color: var(--color-darkslateblue);
+    width: 2350px;
+    height: 60px;
+  }
+  .for-route-related-payment,
+  .payment-cancellation-payment {
+    position: absolute;
+    top: 25px;
+    left: 1700px;
+    display: inline-block;
+    color: var(--color-white);
+    height: 33px;
+    font-size: 20px;
+  }
+  
+  .payment-cancellation-payment {
+    margin-top: 10px;
+    width: 600px;
+    top: 15px;
+    right: 17px;
+    font-size: 20px;
+  }
+  .for-route-related-payment {
+    left: 19px;
+    width: 591px;
+    /* height: 33px; */
+  }
+  .desktop-headerbox-payment{
+    position: absolute;
+    bottom: 987px;
+    left: 0;
+    background-color: rgba(156, 98, 61, 0.09);
+    width: 2350px;
+    height: 149px;
+  }
+  .account-payment,
+  .agent-login-payment,
+  .bus-tickets-payment,
+  .help-payment,
+  .track-bus-payment {
+    position: absolute;
+    top: 130px;
+    left: 190px;
+    display: inline-block;
+    width: 161px;
+    height: 43px;
+    cursor: pointer;
+  }
+  .account-payment,
+  .agent-login-payment,
+  .help-payment,
+  .track-bus-payment{
+    top: 130px;
+    left: 390px;
+    width: 163.13px;
+  }
+  .account-payment,
+  .agent-login-payment,
+  .help-payment {
+    top: 130px;
+    left: 580px;
+    width: 185.28px;
+    height: 40px;
+  }
+  .account-payment,
+  .help-payment {
+    left: 1800px;
+    width: 75.52px;
+    top: 130px;
+  }
+  .account-payment {
+    left: 2000px;
+    width: 131.91px;
+    top: 130;
+  }
+  .desktop-middelbox-payment {
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    border-radius: var(--br-mini);
+    width: 994px;
+    height: 555px;
+  }
+  .desktop-1-child1-payment,
+  .pay-onlinebox-payment{
+    position: absolute;
+    background-color: var(--color-darkslateblue);
+    left: 145px;
+  }
+  .pay-onlinebox-payment{
+    bottom: 840px;
+    left: 600px;
+    border-radius: var(--br-mini);
+    width: 995px;
+    height: 81px;
+  }
+  .desktop-1-child1-payment{
+    top: 940px;
+    left: -10px;
+    width: 2350px;
+    height: 100px;
+  }
+  .email-payment,
+  .pay-online-payment,
+  .phone-no-payment {
+    position: absolute;
+    display: inline-block;
+  }
+  .pay-online-payment {
+    width: 16.27%;
+    top: 310px;
+    left: 650px;
+    color: var(--color-white);
+    height: 24px;
+  }
+  .email-payment,
+  .phone-no-payment {
+    width: 16.83%;
+    top: 399px;
+    left: 700px;
+    height: 36px;
+  }
+  .email-payment {
+    left: 1200px;
+    width: 71px;
+    height: 40px;
+  }
+  .desktop-1-phonebox-payment,
+  .desktop-1-emailbox-payment {
+    position: absolute;
+    /* border-radius: var(--br-mini); */
+    background-color: var(--color-white);
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border: 1px solid var(--color-black); */
+    /* box-sizing: border-box; */
+  }
+  .desktop-1-phonebox-payment{
+    top: 449px;
+    left: 700px;
+    width: 300px;
+    height: 45px;
+  }
+  .desktop-1-emailbox-payment{
+    top: 449px;
+    left: 1200px;
+    width: 297px;
+    height: 45px;
+  }
+  .pnr-payment {
+    position: absolute;
+    width: 7.34%;
+    top: 554px;
+    left: 700px;
+    display: inline-block;
+    height: 45px;
+  }
+  .desktop-1-pnrbox-payment,
+  .desktop-1-child5-payment {
+    position: absolute;
+    background-color: var(--color-white);
+    /* box-sizing: border-box; */
+  }
+  .desktop-1-pnrbox-payment{
+    top: 603px;
+    left: 700px;
+    font-size: 20px;
+    width: 300px;
+    height: 45px;
+  }
+  .desktop-1-child5-payment {
+    top: 752.18px;
+    left: 700px;
+    /* border-radius: 5px; */
+    /* border: 5px solid #d9d9d9; */
+    width: 29.96px;
+    height: 34.03px;
+    transform: rotate(-0.42deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+  }
+  .feedback-and-suggestions,
+  .i-agree-to-payment {
+    position: absolute;
+    top: 756px;
+    left: 750px;
+    display: inline-block;
+    width: 389px;
+    height: 33px;
+  }
+  .feedback-and-suggestions {
+    top: 952px;
+    left: 854.26px;
+    color: white;
+    width: 375.59px;
+    height: 26px;
+    cursor: pointer;
+  }
+  .group-child-payment {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border-radius: var(--br-mini); */
+    background-color: var(--color-darkslateblue);
+    width: 220.52px;
+    height: 52.78px;
+    cursor: pointer;
+    color: white;
+  
+  }
+  /* .search-booking {
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    display: inline-block;
+    width: 193px;
+    height: 76px;
+  } */
+  
+  .rectangle-footer-payment{
+    position: absolute;
+    width: 1300.59px;
+    top: 940px;
+    right: 0;
+    left: -0px;
+    background-color: var(--color-darkslateblue);
+    height: 70px;
+  }
+  .about-us-payment{
+    position: absolute;
+    top: 747px;
+    left: 586px;
+    width: 228.52px;
+    height: 88px;
+   color: white;
+   
+    
+  }
+  .rectangle-parent-payment{
+    position: absolute;
+    top: 747px;
+    left: 1200px;
+    width: 228.52px;
+    height: 88px;
+   color: white;
+  
+  }
+  
+  .about-us-payment{
+    top: 952px;
+    left: 2100px;
+    display: inline-block;
+    width: 120.83px;
+    height: 28px;
+    cursor: pointer;
+  }
+  .about-us-payment{
+    left: 1800px;
+    width: 162.12px;
+    height: 23px;
+  }
+  
+  .desktop-1-paymentop{
+    position: absolute;
+    top: 603px;
+    left: 1200px;
+   background-color: var(--color-white);
+  width: 300px;
+    height: 40px;
+  }
+  .payment-method-payment {
+    position: absolute;
+    width: 23.52%;
+    top: 554px;
+    left: 1200px;
+    display: inline-block;
+  }
+  .options {
+    width: 100.12%;
+    top: 0px;
+    left: 0%;
+    font-weight: 600;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .how-payment-methods,
+  .options,
+  .quick-links {
+    position: absolute;
+    display: inline-block;
+  }
+  .quick-links {
+    top: 952px;
+    left: 25.17px;
+    color: var(--color-white);
+    width: 167.15px;
+    height: 28px;
+    cursor: pointer;
+  }
+  .how-payment-methods {
+    top: 845px;
+    left: 136px;
+    width: 487px;
+    height: 50px;
+  }
+  .polygon-icon {
+    position: absolute;
+    top: 835px;
+    left: 93.75px;
+    border-radius: 2px;
+    width: 30.77px;
+    height: 41.37px;
+    cursor: pointer;
+  
+  }
+  .bus-logo-1-icon-payment {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 178px;
+    height: 187px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  
+.footer-payment{
+  background-color: #1e033f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 480px;
+  opacity: 0.9;
+  bottom: 0;
+  margin-top: 880px;
+}
+
+/* CSS for the about us section */
+.about-us-payment {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer-payment p {
+  font-weight: normal;
+  font-size: 30px;
+  width: 30%;
+  margin-left: 1500px;
+  margin-top: 30px;
+  text-align: justify;
+  color: white;
+  
+}
+
+  .desktop-1-payment {
+    position: relative;
+    background-color: var(--color-white);
+    width: 2500px;
+    height: 1200px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+    
+  }
+
+  .dropbtn-payment{
+    background-color: #563d85;
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .dropbtn-payment:hover{
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+  }
+  
+  .dropdown-content-payment {
+    
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-payment a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-payment a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-payment:hover .dropdown-content-payment {
+    display: block;
+  }
+  

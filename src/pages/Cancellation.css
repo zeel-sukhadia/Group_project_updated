@@ -1,0 +1,525 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+.inquiry-number{
+  height: 50px;
+  font-size: 70px;
+  background-color:  var(--color-darkslateblue);
+}
+
+
+.desktop-1-cancellation{
+position: absolute;
+top: 0;
+left: 0;
+background-color: var(--color-darkslateblue);
+width: 2500px;
+height: 1200px;
+
+}
+.for-route-cancellation,
+.payment-cancellation {
+position: absolute;
+top: 15px;
+left: 16px;
+display: inline-block;
+color: white;
+width: 596px;
+height: 140px;
+font-size: 20px;
+
+}
+.payment-cancellation {
+left: 1750px;
+width: 596px;
+cursor: pointer;
+}
+
+.about-us-cancellation {
+position: absolute;
+top: 973px;
+left: 16px;
+display: inline-block;
+color: black;
+width: 619px;
+height: 177px;
+cursor: pointer;
+}
+.about-us-cancellation {
+left: 233px;
+cursor: pointer;
+
+
+}
+.about-us-cancellation{
+left: 417px;
+cursor: pointer;
+}
+
+
+.desktop-1-inner {
+position: absolute;
+top: 30px;
+left: 0;
+background-color: rgba(156, 98, 61, 0.09);
+width: 2500px;
+height: 167px;
+}
+.bus-logo-1-icon-cancellation{
+position: absolute;
+top: -5px;
+left: -10px;
+width: 180px;
+height: 200px;
+object-fit: cover;
+
+}
+.bus-tickets-cancellation{
+position: absolute;
+top: 90px;
+left: 210px;
+display: inline-block;
+width: 481px;
+height: 147px;
+cursor: pointer;
+}
+.track-bus-cancellation {
+left: 417px;
+height: 300px;
+cursor: pointer;
+
+}
+.account-cancellation,
+.agent-login-can,
+.help-cancellation,
+.track-bus-cancellation {
+position: absolute;
+top: 90px;
+display: inline-block;
+width: 481px;
+cursor: pointer;
+}
+.account-cancellation {
+left: 2000px;
+height: 147px;
+cursor: pointer;
+}
+.agent-login-can,
+.help-cancellation{
+left: 625px;
+}
+.help-cancellation{
+left: 850px;
+cursor: pointer;
+}
+.desktop-1-child1-cancellation{
+position: absolute;
+top: 240px;
+left: 100px;
+border-radius: var(--br-mini);
+width: 2100px;
+height: 80px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.cancellation {
+position: absolute;
+top: 270px;
+left: 550px;
+display: inline-block;
+color: white;
+width: 619px;
+height: 177px;
+cursor: pointer;
+}
+.cancellation-cut-off,
+.cancellation-return-amount {
+position: absolute;
+top: 340px;
+left: 550px;
+display: inline-block;
+width: 508px;
+height: 108px;
+cursor: pointer;
+}
+.cancellation-return-amount {
+top: 340px;
+left: 1150px;
+width: 502px;
+height: 98px;
+cursor: pointer;
+}
+.line-icon-cancellation{
+position: absolute;
+top: 390px;
+left: 98px;
+width: 2090px;
+height: 3px;
+}
+.desktop-1-child2-cancellation {
+position: absolute;
+top: 320px;
+left: 1100px;
+width: 5px;
+height: 215.09px;
+}
+.hours-to-24,
+.hours-to-48 {
+position: absolute;
+top: 420px;
+left: 650px;
+display: inline-block;
+width: 398px;
+height: 73px;
+}
+.hours-to-48 {
+top: 460px;
+left: 650px;
+width: 381px;
+height: 79px;
+}
+.div,
+.div1,
+.div2,
+.journey-date-cancellation,
+.more-than-48 {
+position: absolute;
+top: 498px;
+left: 650px;
+display: inline-block;
+width: 378px;
+height: 81px;
+}
+.div,
+.div1,
+.div2,
+.journey-date-cancellation {
+top: 420px;
+left: 1300px;
+width: 213px;
+height: 90px;
+}
+.div1,
+.div2,
+.journey-date-cancellation {
+top: 460px;
+width: 248px;
+height: 114px;
+}
+.div2,
+.journey-date-cancellation {
+top: 500px;
+width: 285px;
+height: 103px;
+}
+.journey-date-cancellation {
+top: 564px;
+left: 550px;
+width: 405px;
+height: 82px;
+}
+.journey-date-picker-cencallation{
+
+width: 400px;
+padding: 12px 20px;
+margin: 8px 0;
+margin-top: 20px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+cursor: pointer;
+
+.desktop-middelbox-cancellation {
+  position: absolute;
+  top: 280px;
+  left: 600px;
+  border-radius: var(--br-mini);
+  width: 994px;
+  height: 555px;
+}
+
+
+}
+.rectangle-div {
+position: absolute;
+top: 607px;
+left: 107px;
+border-radius: var(--br-mini);
+/* background-color: var(--color-white); */
+border: 1px solid var(--color-black);
+box-sizing: border-box;
+width: 433px;
+height: 55px;
+}
+.pnr-cencallation {
+position: absolute;
+top: 564px;
+left: 1200px;
+display: inline-block;
+width: 480px;
+height: 100px;
+}
+.desktop-1-pnr-cancellation{
+width: 400px;
+padding: 12px 20px;
+margin: 8px 0;
+margin-top: 20px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+.desktop-1-child3 {
+position: absolute;
+top: 608px;
+left: 660px;
+border-radius: var(--br-mini);
+/* background-color: var(--color-white); */
+border: 1px solid var(--color-black);
+box-sizing: border-box;
+width: 630px;
+height: 54px;
+}
+.arrival {
+position: absolute;
+top: 696px;
+left: 1200px;
+display: inline-block;
+width: 539px;
+height: 98px;
+}
+.desktop-1-arrival{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  margin-top: 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.desktop-1-departur{
+width: 400px;
+padding: 12px 20px;
+margin: 8px 0;
+margin-top: 30px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+cursor: pointer;
+}
+/* .desktop-1-child5 {
+top: 744px;
+left: 110px;
+} */
+.departure {
+position: absolute;
+top: 692px;
+left: 550px;
+display: inline-block;
+width: 395px;
+height: 81px;
+cursor: pointer;
+}
+.line-div {
+position: absolute;
+top: 545.5px;
+left: 86.5px;
+border-top: 1px solid var(--color-black);
+box-sizing: border-box;
+width: 1265px;
+height: 1px;
+}
+.group-child {
+position: absolute;
+top: 0;
+left: 0;
+border-radius: var(--br-mini);
+background-color: var(--color-darkslateblue);
+width: 250px;
+height: 65px;
+}
+.sub-inner{
+background-color: #563d85 ;
+color: white;
+padding: 5px 20px;
+border: none;
+width: 180px;
+height: 40px;
+font-size: 30px;
+cursor: pointer;
+margin-left: 500px;
+
+}
+
+.sub:hover{
+opacity: 0.5;
+cursor: pointer;
+}
+
+.rectangle-parent-cancellation{
+  position: absolute;
+  top: 747px;
+  left: 1200px;
+  width: 228.52px;
+  height: 88px;
+ color: white;
+
+}
+.group-child-cancellation {
+  position: absolute;
+  top: 100px;
+  left: 1050px;
+  /* border-radius: var(--br-mini); */
+  background-color: var(--color-darkslateblue);
+  width: 220.52px;
+  height: 52.78px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.group-div-cancellation,
+.rectangle-parent-cancellation {
+position: absolute;
+top: -100;
+left: 20px;
+width: 402px;
+height: 83px;
+
+}
+.group-div-cancellation {
+top: 820px;
+left: 584px;
+font-size: 32px;
+color: var(--color-white);
+position: absolute;
+flex: auto;
+}
+
+.desktop-1-agree-cancellation{
+position: absolute;
+top: 844px;
+left: 550px;
+border-radius: 5px;
+/* background-color: var(--color-white); */
+border: 5px solid #d9d9d9;
+box-sizing: border-box;
+width: 50px;
+height: 50px;
+}
+
+.checkbox-label {
+display: flex;
+align-items: center;
+
+}
+.i-agree-to-cancellation {
+position: absolute;
+top: 860px;
+left: 630px;
+display: inline-block;
+width: 400px;
+height: 57px;
+}
+
+/* .footer {
+  background-color: #563d85 ; 
+  color: white;
+  padding: 10px 0;
+  text-align: justify;
+  position: relative;
+  bottom: 0;
+  margin-top: 850px;
+  width: 100%;
+  
+} */
+
+/* .footer p {
+  margin: 0;
+} */
+.desktop-1-cancellation{
+position: relative;
+background-color: var(--color-white);
+width: 100%;
+height: 1300px;
+overflow: hidden;
+text-align: left;
+font-size: var(--font-size-5xl);
+color: var(--color-black);
+font-family: var(--font-inter);
+}
+
+.footer {
+  background-color: #1e033f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 500px;
+  opacity: 0.9;
+  bottom: 0;
+  margin-top: 850px;
+}
+
+/* CSS for the about us section */
+.about-us-cancellation {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer p {
+  font-weight: normal;
+  font-size: 30px;
+  width: 30%;
+  margin-left: 1500px;
+  margin-top: 30px;
+  text-align: justify;
+  color: white;
+  
+}
+
+.dropbtn-cancellation{
+  background-color: #563d85;
+  color: white;
+  padding: 10px 25px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+}
+
+.dropbtn-cancellation:hover{
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.dropdown-content-cancellation {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-cancellation a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-cancellation a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-cancellation:hover .dropdown-content-cancellation {
+  display: block;
+}
+

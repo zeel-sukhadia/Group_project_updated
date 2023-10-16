@@ -1,0 +1,113 @@
+.login-child {
+    position: absolute;
+    top: 147px;
+    left: 311px;
+    border-radius: 15px;
+    background-color:white;
+    border: 1px solid var(--color-brown);
+    box-sizing: border-box;
+    width: 818px;
+    height: 776px;
+  }
+  .email-login,
+  .name,
+  .password-login,
+  .signup {
+    position: absolute;
+    left: 376px;
+    display: inline-block;
+  }
+  .signup {
+    top: 201px;
+    font-size: 36px;
+    width: 315px;
+    height: 87px;
+  }
+  .email-login,
+  .password-login {
+    top: 200px;
+    width: 363px;
+    height: 81px;
+  }
+  .email-login,
+  .password-login {
+    top: 300px;
+    width: 328px;
+    height: 111px;
+  }
+  .password-login {
+    top: 450px;
+    width: 283px;
+    height: 154px;
+  }
+  .signup_nav {
+    color:red;
+    cursor: pointer;
+  }
+  .already-have-an-container-login {
+    position: absolute;
+    top: 700px;
+    left: 376px;
+    display: inline-block;
+    width: 534px;
+    height: 66px;
+  }
+  .login_main {
+    position: relative;
+    background-color: #563d85;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
+  .username{
+  
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .mail{
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .passwrd-login{
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .btn{
+    background-color:#563d85 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn:hover{
+    opacity: 0.8;
+  }
+
+  .new-user{
+    top: 300;
+  }

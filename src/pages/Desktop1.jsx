@@ -17,52 +17,10 @@ function Desktop1() {
   const [toStation, setToStation] = useState(null);
   const [journeyDate, setJourneyDate] = useState("");
 
-  const availableBuses = [
-    {
-      type: "VOLVO",
-      from: "Surat",
-      to: "Vadodara",
-      agency: "ABC Buses",
-      departureTime: "08:00 AM",
-      arrivalTime: "10:30 AM",
-      availableSeats: 10,
-    },
-  ];
-
-  const newBuses = [
-    {
-      type: "Non-AC",
-      from: "Surat",
-      to: "Vadodara",
-      agency: "New Bus Agency",
-      departureTime: "New Departure Time",
-      arrivalTime: "New Arrival Time",
-      availableSeats: 15,
-    },
-    // Add more new bus data here
-  ];
-
-  const filteredBuses = availableBuses.filter(
-    (bus) => bus.from === fromStation && bus.to === toStation
-  );
-
   const showCardsData = () => {
-    if (filteredBuses.length > 0) {
-      if (fromStation === "Surat" && toStation === "Vadodara") {
-        alert(toStation);
-        navigate("/bus-ticket", {
-          state: { from: fromStation, to: toStation },
-        });
-      } else if (fromStation === "Ahmedabad" && toStation === "Jamnagar") {
-        alert(fromStation, toStation);
-        navigate("/bus-ticket2", {
-          state: { from: fromStation, to: toStation },
-        });
-      } else {
-        console.log(fromStation, toStation);
-        alert("No buses available for the selected route.");
-      }
-    }
+    navigate("/bus-ticket", {
+      state: { from: fromStation, to: toStation },
+    });
   };
 
   // const showCardsData = () => {

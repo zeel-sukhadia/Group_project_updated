@@ -1,59 +1,48 @@
 import React, { useState } from "react";
 import "./Bus_ticket.css";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Button from "@mui/material/Button";
 
+const availableBuses = [
+  {
+    type: "VOLVO",
+    from: "Surat",
+    to: "Vadodara",
+    agency: "ABC Buses",
+    departureTime: "08:00 AM",
+    arrivalTime: "10:30 AM",
+    availableSeats: 10,
+  },
+  {
+    type: "Non-AC",
+    from: "Surat",
+    to: "Vadodara",
+    agency: "Amulya agency",
+    departureTime: "New Departure Time",
+    arrivalTime: "New Arrival Time",
+    availableSeats: 9,
+  },
+  {
+    type: "AC",
+    from: "Surat",
+    to: "Vadodara",
+    agency: "Radhe agency",
+    departureTime: "New Departure Time",
+    arrivalTime: "New Arrival Time",
+    availableSeats: 5,
+  },
+  {
+    type: "AC",
+    from: "Ahmedabad",
+    to: "Jamnagar",
+    agency: "Mahalaskhmi agency",
+    departureTime: "New Departure Time",
+    arrivalTime: "New Arrival Time",
+    availableSeats: 5,
+  },
+];
+
 const Bus_ticket = () => {
-  const [showCards, setShowCards] = useState(false);
-
-  const availableBuses = [
-    {
-      type: "VOLVO",
-      from: "Surat",
-      to: "Vadodara",
-      agency: "ABC Buses",
-      departureTime: "08:00 AM",
-      arrivalTime: "10:30 AM",
-      availableSeats: 10,
-    },
-  ];
-
-  const newBuses = [
-    {
-      type: "Non-AC",
-      from: "Surat",
-      to: "Vadodara",
-      agency: "Amulya agency",
-      departureTime: "New Departure Time",
-      arrivalTime: "New Arrival Time",
-      availableSeats: 9,
-    },
-  ];
-
-  const newBuses2 = [
-    {
-      type: "AC",
-      from: "Surat",
-      to: "Vadodara",
-      agency: "Radhe agency",
-      departureTime: "New Departure Time",
-      arrivalTime: "New Arrival Time",
-      availableSeats: 5,
-    },
-  ];
-
-  const newBuses3 = [
-    {
-      type: "AC",
-      from: "Ahemdabad",
-      to: "Jamnagar",
-      agency: "Mahalaskhmi agency",
-      departureTime: "New Departure Time",
-      arrivalTime: "New Arrival Time",
-      availableSeats: 5,
-    },
-  ];
-
   const { state } = useLocation();
   const fromStation = state?.from || null;
   const toStation = state?.to || null;
@@ -61,7 +50,7 @@ const Bus_ticket = () => {
   const filteredBuses = availableBuses.filter(
     (bus) => bus.from === fromStation && bus.to === toStation
   );
-  console.log(filteredBuses);
+
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -80,7 +69,6 @@ const Bus_ticket = () => {
       </div>
       <div className="desktop-1-inner-ticket" />
       <a href="/">
-        {" "}
         {/* Make sure to provide valid URLs */}
         <img
           className="bus-logo-1-icon-ticket"
@@ -138,6 +126,47 @@ const Bus_ticket = () => {
                       </tr>
                     </thead>
                     <tbody>
+                      <tr key={index}>
+                        <td>{bus.type}</td>
+                        <td>{bus.from}</td>
+                        <td>{bus.to}</td>
+                        <td>{bus.agency}</td>
+                        <td>{bus.departureTime}</td>
+                        <td>{bus.arrivalTime}</td>
+                        {/* <td>{bus.date}</td> */}
+                        <td>{bus.availableSeats}</td>
+                        <td>
+                          <Button
+                            variant="contained"
+                            onClick={() => viewSeats(bus)}
+                          >
+                            View Seats
+                          </Button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              ))}
+            </div>
+            {/* 
+            <div className="bus-cards">
+              {filteredBuses.map((bus, index) => (
+                <div className="bus-card" key={index}>
+                  <table className="bus-table">
+                    <thead>
+                      <tr>
+                        <th>Type</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Agency</th>
+                        <th>Departure Time</th>
+                        <th>Arrival Time</th>
+                        <th>Available Seats</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
                       {filteredBuses.map((bus, index) => (
                         <tr key={index}>
                           <td>{bus.type}</td>
@@ -146,7 +175,6 @@ const Bus_ticket = () => {
                           <td>{bus.agency}</td>
                           <td>{bus.departureTime}</td>
                           <td>{bus.arrivalTime}</td>
-                          {/* <td>{bus.date}</td> */}
                           <td>{bus.availableSeats}</td>
                           <td>
                             <Button
@@ -181,7 +209,7 @@ const Bus_ticket = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {newBuses.map((bus, index) => (
+                      {filteredBuses.map((bus, index) => (
                         <tr key={index}>
                           <td>{bus.type}</td>
                           <td>{bus.from}</td>
@@ -204,49 +232,7 @@ const Bus_ticket = () => {
                   </table>
                 </div>
               ))}
-            </div>
-
-            <div className="bus-cards">
-              {filteredBuses.map((bus, index) => (
-                <div className="bus-card" key={index}>
-                  <table className="bus-table">
-                    <thead>
-                      <tr>
-                        <th>Type</th>
-                        <th>From</th>
-                        <th>To</th>
-                        <th>Agency</th>
-                        <th>Departure Time</th>
-                        <th>Arrival Time</th>
-                        <th>Available Seats</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {newBuses2.map((bus, index) => (
-                        <tr key={index}>
-                          <td>{bus.type}</td>
-                          <td>{bus.from}</td>
-                          <td>{bus.to}</td>
-                          <td>{bus.agency}</td>
-                          <td>{bus.departureTime}</td>
-                          <td>{bus.arrivalTime}</td>
-                          <td>{bus.availableSeats}</td>
-                          <td>
-                            <Button
-                              variant="contained"
-                              onClick={() => viewSeats(bus)}
-                            >
-                              View Seats
-                            </Button>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              ))}
-            </div>
+            </div> */}
           </div>
         ) : null}
       </div>

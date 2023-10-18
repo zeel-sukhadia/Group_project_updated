@@ -1296,7 +1296,7 @@ font-size: 20px; */
   display: inline-block;
 }
 
-.btn-search{
+.btn-search-home{
   background-color: #563d85;
   font-size: 15px;
   font-weight: bold;
@@ -1308,10 +1308,11 @@ font-size: 20px; */
   padding-right: 70px;
   border-radius: 0px;
   transition: background 0.3s ease;
+  margin-top: 5px;
   
 }
 
-.btn-search:hover{
+.btn-search-home:hover{
   background: linear-gradient(to right, #ee0979, #ff6a00);
 }
 

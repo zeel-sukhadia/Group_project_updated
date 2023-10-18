@@ -18,7 +18,8 @@ import Modify from "./pages/Modify";
 import Dashboard from "./pages/Dashboard/Dashboard";
 
 import Bus_ticket from "./pages/Bus_ticket";
-import Route_1 from "./pages/Booking_route/Route_1";
+
+// import Seat_select from "./pages/Seat_select";
 
 function App() {
   const action = useNavigationType();
@@ -68,7 +69,8 @@ function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/modify" element={<Modify />} />
       <Route path="/bus-ticket" element={<Bus_ticket />} />
-      <Route path="/bus-ticket2" element={<Route_1 />} />
+
+      {/* <Route path="/seat" element={<Seat_select />} /> */}
     </Routes>
   );
 }

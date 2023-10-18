@@ -23,51 +23,6 @@ function Desktop1() {
     });
   };
 
-  // const showCardsData = () => {
-  //   // console.log("fromStation:", fromStation);
-  //   // console.log("toStation:", toStation);
-
-  //   if (filteredBuses.length > 0) {
-  //     console.log("fromStation:", fromStation);
-  //     console.log("toStation:", toStation);
-
-  //     if (fromStation === "Surat" && toStation === "Vadodara") {
-  //       // alert(toStation);
-  //       navigate("/bus-ticket", {
-  //         state: { from: fromStation, to: toStation },
-  //       });
-  //     } else if (fromStation === "Ahmedabad" && toStation === "Jamnagar") {
-  //       alert(fromStation, toStation);
-  //       navigate("/bus-ticket2", {
-  //         state: { from: fromStation, to: toStation },
-  //       });
-  //     } else {
-  //       console.log(fromStation, toStation);
-  //       alert("No buses available for the selected route.");
-  //     }
-  //   }
-  // };
-
-  // If buses are available, navigate to the BusList component
-  //     navigate("/bus-ticket", { state: { from: fromStation, to: toStation } });
-  //   } else if (fromStation === "Ahmedabad" && toStation === "Jamnagar") {
-  //     navigate("/bus-ticket2");
-  //   } else {
-  //     console.log(fromStation, toStation);
-  //     alert("No buses available for the selected route.");
-  //   }
-  // };
-
-  // const showCardsData = () => {
-  //   if (fromStation === "Surat" && toStation === "Vadodara") {
-  //     navigate("/bus-ticket");
-  //   } else if (fromStation === "Ahmedabad" && toStation === "Jamnagar") {
-  //     navigate("/bus-ticket2");
-  //   } else {
-  //     alert("No buses available for the selected route.");
-  //   }
-  // };
-
   const city = [
     "Surat",
     "Vadodara",
@@ -255,9 +210,7 @@ function Desktop1() {
         FOR ROUTE RELATED ENQUIRY :- +91 7777777777
       </div>
       <div className="payment-cancellation-home">{`PAYMENT & CANCELLATION ISSUE :- +91 7777777777`}</div>
-      {/* <img className="group-icon" alt="" src="/group-1.svg" /> */}
 
-      {/* <img className="vector-icon" alt="" src="/vector.svg" /> */}
       <div>
         <label htmlFor="dropdown">Select an option:</label>
         <select
@@ -279,7 +232,7 @@ function Desktop1() {
       <div className="search-parent">
         <div className="search">
           <button
-            className="btn-search"
+            className="btn-search-home"
             variant="contained"
             onClick={showCardsData}
           >
